@@ -9,8 +9,11 @@ using namespace std;
 
 /* The BST keeps students ordered by roll number, and the queue serves help
    requests in arrival order (FIFO).
+   Complexity:
    Adding a student to the BST: O(n) worst case , O(logn) Average case
-   Searching the BST: O(n) worst case. O(logn) Average case */
+   Searching the BST: O(n) worst case. O(logn) Average case
+   For recieving and serving a queue the compleity is O(1)
+   */
 
 // Node for BST
 struct StudentNode{
